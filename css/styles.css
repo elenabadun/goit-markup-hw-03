@@ -254,13 +254,10 @@ img {
   border-radius: 0 0 4px 4px; 
 }
 
-.team-photo {
-  margin-bottom: 32px;
-}
-
 .team-container {
   display: block;
   align-items: center;
+  padding: 32px 0;
 }
 
 .team-list-name {
@@ -274,7 +271,6 @@ img {
 }
 
 .team-list-text {
-  padding-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
