@@ -55,11 +55,6 @@ img {
   margin-right: auto;
 }
 
-.container-paddings {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 /*-------------/Common Styles-------------*/
 
 /*-------------Header Styles-------------*/
@@ -151,7 +146,6 @@ img {
 .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;
-  margin-bottom: 60px;
 }
 
 .main-title {
@@ -169,9 +163,9 @@ img {
 }
 
 .button {
-  display: flex;
-  align-items: center;
+  display: block;
   border-radius: 4px;
+  border: none;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -193,6 +187,10 @@ img {
 
 /*--------------Benefits-------------*/
 
+.benefits-section {
+  padding: 120px 0;
+}
+
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -208,7 +206,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -224,6 +222,7 @@ img {
 /*---------------Team--------------*/
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -246,7 +245,7 @@ img {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-list-item {
@@ -257,6 +256,11 @@ img {
 
 .team-photo {
   margin-bottom: 32px;
+}
+
+.team-container {
+  display: block;
+  align-items: center;
 }
 
 .team-list-name {
@@ -281,6 +285,10 @@ img {
 /*---------------/Team--------------*/
 
 /*---------------Portfolio--------------*/
+
+.portfolio {
+  padding: 120px 0;
+}
 
 .portfolio-title {
   margin-left: auto;
@@ -341,6 +349,7 @@ align-items: center;
 
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
