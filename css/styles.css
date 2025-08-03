@@ -36,6 +36,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -44,6 +48,18 @@ button {
   margin-right: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
 /* endregion Common styles */
 
 /* region Header */
@@ -78,6 +94,7 @@ button {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .navigation-list {
@@ -233,6 +250,7 @@ button {
 }
 
 .team-subtitle {
+  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -257,7 +275,7 @@ button {
 }
 
 .portfolio-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -313,12 +331,16 @@ button {
   background-color: #2e2f42;
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-footer .logo-part {
   color: #f4f4fd;
 }
 
 .footer-text {
-  margin-top: 16px;
   max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
