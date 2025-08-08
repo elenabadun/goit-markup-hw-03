@@ -97,12 +97,12 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .navigation-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .navigation-item {
